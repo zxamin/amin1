@@ -1,0 +1,208 @@
+/* CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: ‚’;
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+* {
+box-sizing: border-box;
+}
+
+
+
+body {
+    line-height  : 1;
+    background-image:  url("wedding-landing-background.png");
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background: url(wedding-landing-cover.jpg) no-repeat center
+
+center fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.greybox {
+    color of the background : hsla(100,0%,0%,.6);
+    width: 50% ; height: 40% ;
+
+}
+
+.gettingmarried, .date {
+color: hsla(0,0%,100%,.9);
+font-size:1.5rem;
+letter-spacing: 0.1rem;
+font: Libre Baskerville;
+}
+
+.name {
+    color:#d2ba87;
+    font-size: 7rem;
+    font: Great Vibes;
+    padding-top: 2.5rem;
+}
+
+.gettingmarried {
+    padding-top: 11%; 
+}
+
+.locations div {
+    padding: 3rem 4rem;
+
+}
+
+.locationheadline,
+.giftsheadline, .contactheadline  {
+    font-size: 3rem;
+    text-aligned: center;
+    font : Great Vibes;
+    color: #444349;
+    padding-bottom of 3rem;
+
+
+
+}
+
+.ceremony,
+.photos, .party {
+    width:  32.5%;
+    display: inline-block;
+    text-aligned: center;
+
+}
+.ceremonyheadline, .photosheadline,
+.partyheadline {
+    font-size: 1.6rem;
+    font: Libre Baskerville;
+     font-weight:700;
+    color: #444349;
+    
+    padding-bottom: 2rem;
+
+
+}
+.locationpics{
+width:25%
+padding-bottom : 2rem;
+}
+
+.church,
+.bastion, .lounge{
+    font-size:1.1rem;
+     font-weight: 300;
+     font:Mulish;
+     color: #444349;
+     line-height, padding-bottom : 2rem;
+
+}
+
+.program div {
+    background: hsla(100,0%,0%,.6);
+font:Mulish;
+text-aligned: left;
+padding: 3rem 35%;
+padding-top: 3rem 35%;
+padding-bottom: 3rem 35%;
+font-size: 1.2rem;
+font-weight:300;
+}
+
+.programheadline{
+    font :Great Vibes;
+    font : 3rem;
+   padding-bottom: 3rem;
+    headline:aligned center;
+
+}
+.programpara {
+padding-bottom: 2rem;
+font-style: italic;
+line-height: 1.5rem;
+}
+.gifts div {
+    text: aligned to the center;
+padding: 3rem 3rem;
+color: #444349;c
+font-style: Libre Baskerville;
+font-size:1.2rem;
+line-height: 2rem;
+}
+.giftspic  {
+    width :8.25%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.qa div  {
+    background-color:  hsla(100,0%,0%,.6);
+font-color: #d2ba87;
+padding: 3rem 4rem;
+}
+.qaheadline {
+    font:’Great Vibes’;
+ font-size: 3rem; 
+ padding-bottom : 3rem;
+padding: center;
+}
+.travel, .food, .smallstuff {
+    width: 32.5%;
+    display: inline-block;
+    text-align: left;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    vertical-align: text-top;  
+}
+.qaheadlines {
+    font:’Libre Baskerville’;
+font-size: 1.4rem;
+padding-bottom : 2rem;
+}
+.question, .answer {
+    font-size :1.15rem;
+     line-height:1.8rem;
+ font: ’Mulish’;
+ 
+}
+.question {
+    font-weight: 700 ;
+}
+.answer {
+    font-weight: 300;
+}
